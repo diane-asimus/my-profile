@@ -1,0 +1,70 @@
+body {
+  background-color: #E0FBFC;
+  color: #5C6B73;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 3px;
+  text-transform; text-align: center;
+  font-weight: lighter;
+}
+
+h1,h2,h3 {
+  font-family: 'Roboto';
+  color: #253237
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h2 {
+  letter-spacing: 3px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+  /*text-align: center;
+  padding: 30px;
+  border: 1px solid lightgrey; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background: #C2DFE3;
+  padding: 60px;
+  margin: 20px;
+  box-shadow: 0px 10px 30px #9DB4C0;
+  border-radius: 10px;	
+}
+
